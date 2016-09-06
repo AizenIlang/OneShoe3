@@ -10,10 +10,12 @@
 <body>
 <?php 
  	
- 	$myUser = $USERS->updateEmail('John','Hwoarang@yahoo.com');
- 	
+ 	$myUser = $USERS->getUser('John');
+ 	echo $myUser['Password'];
+	 	
  ?>
 
  
+
 </body>
 </html>
